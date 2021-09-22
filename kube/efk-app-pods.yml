@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: efk-app
+  name: efk-app
+  namespace: default
+spec:
+  containers:
+  - image: eunsojo/efk-docker:v1.0
+    imagePullPolicy: IfNotPresent
+    name: efk-app
+    resources: {}
+  restartPolicy: Always

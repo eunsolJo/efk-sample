@@ -1,0 +1,22 @@
+2021-09-22T15:09:15.745+0900  INFO 71839 --- [           main] me.esjo.efksample.EfkSampleApplication   [  55] : Starting EfkSampleApplication using Java 1.8.0_292 on eunsolJos-MacBook-Pro.local with PID 71839 (/Users/esjo/workspace/efk-sample/build/classes/java/main started by esjo in /Users/esjo/workspace/efk-sample)
+2021-09-22T15:09:15.747+0900  INFO 71839 --- [           main] me.esjo.efksample.EfkSampleApplication   [ 659] : No active profile set, falling back to default profiles: default
+2021-09-22T15:09:17.286+0900  INFO 71839 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  [ 108] : Tomcat initialized with port(s): 8080 (http)
+2021-09-22T15:09:17.294+0900  INFO 71839 --- [           main] o.apache.catalina.core.StandardService   [ 173] : Starting service [Tomcat]
+2021-09-22T15:09:17.295+0900  INFO 71839 --- [           main] org.apache.catalina.core.StandardEngine  [ 173] : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22T15:09:17.364+0900  INFO 71839 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       [ 173] : Initializing Spring embedded WebApplicationContext
+2021-09-22T15:09:17.367+0900  INFO 71839 --- [           main] w.s.c.ServletWebServerApplicationContext [ 290] : Root WebApplicationContext: initialization completed in 1564 ms
+2021-09-22T15:09:17.980+0900  INFO 71839 --- [           main] pertySourcedRequestMappingHandlerMapping [  69] : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22T15:09:18.240+0900  INFO 71839 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  [ 220] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-22T15:09:18.241+0900  INFO 71839 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper [ 160] : Context refreshed
+2021-09-22T15:09:18.250+0900  INFO 71839 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper [ 163] : Found 1 custom documentation plugin(s)
+2021-09-22T15:09:18.267+0900  INFO 71839 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     [  41] : Scanning for api listing references
+2021-09-22T15:09:18.365+0900  INFO 71839 --- [           main] me.esjo.efksample.EfkSampleApplication   [  61] : Started EfkSampleApplication in 3.308 seconds (JVM running for 4.306)
+2021-09-22T15:09:35.543+0900  INFO 71839 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       [ 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22T15:09:35.544+0900  INFO 71839 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        [ 525] : Initializing Servlet 'dispatcherServlet'
+2021-09-22T15:09:35.549+0900  INFO 71839 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        [ 547] : Completed initialization in 5 ms
+2021-09-22T15:09:35.582+0900  INFO 71839 --- [nio-8080-exec-1] me.esjo.efksample.SpringApiController    [  23] : log info!!
+2021-09-22T15:09:35.585+0900  INFO 71839 --- [nio-8080-exec-1] me.esjo.efksample.SpringApiController    [  24] : log error!!
+2021-09-22T15:09:36.137+0900  INFO 71839 --- [nio-8080-exec-2] me.esjo.efksample.SpringApiController    [  23] : log info!!
+2021-09-22T15:09:36.137+0900  INFO 71839 --- [nio-8080-exec-2] me.esjo.efksample.SpringApiController    [  24] : log error!!
+2021-09-22T15:09:36.835+0900  INFO 71839 --- [nio-8080-exec-3] me.esjo.efksample.SpringApiController    [  23] : log info!!
+2021-09-22T15:09:36.835+0900  INFO 71839 --- [nio-8080-exec-3] me.esjo.efksample.SpringApiController    [  24] : log error!!
